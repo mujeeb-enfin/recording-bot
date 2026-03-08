@@ -1,1 +1,38 @@
-node_modules
+# ─── Dependencies ────────────────────────────────────
+node_modules/
+
+# ─── Environment Variables ──────────────────────────
+.env
+.env.local
+.env.production
+
+# ─── Recordings (generated output) ──────────────────
+recordings/
+
+# ─── Logs ────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+
+# ─── IDE ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS Files ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# ─── Build ───────────────────────────────────────────
+dist/
+build/
+
+# ─── Testing ─────────────────────────────────────────
+coverage/
+.nyc_output/
+
+.mrdeepcoder
